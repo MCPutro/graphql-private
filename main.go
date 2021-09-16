@@ -17,7 +17,7 @@ func main() {
 	// db.AutoMigrate(&tablebuku)
 	// infrastructure.DisconectionDB(db)
 
-	port := os.Getenv("POST")
+	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
 	}
